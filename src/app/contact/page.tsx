@@ -13,7 +13,7 @@ const ContactPage: React.FC = () => {
             Contact Us
           </h1>
           <p className="text-center text-gray-600 mb-10">
-            We'd love to hear from you! Please fill out the form below or use
+            We would love to hear from you! Please fill out the form below or use
             the information provided to reach out to us.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
