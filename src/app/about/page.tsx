@@ -3,7 +3,7 @@ import Navbar from '../components/navbar'
 import Image from 'next/image'
 import Footer from '../components/footer'
 
-export const About  = () => {
+const About  = () => {
   return (
    <div>
     <Navbar/>
