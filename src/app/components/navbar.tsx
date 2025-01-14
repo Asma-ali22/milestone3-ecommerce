@@ -1,6 +1,6 @@
 import Link from "next/link"
 import React from "react"
-import { FaCartShopping } from "react-icons/fa6";
+
 
 const Navbar=()=>{
     return(
@@ -15,7 +15,7 @@ const Navbar=()=>{
       <Link href={"/about"} className="mr-5 text-xl hover:text-gray-900">About</Link>
       <Link href={"/pro"}className="mr-5  text-xl hover:text-gray-900">Product</Link>
       <Link  href={"/contact"}className="mr-5  text-xl hover:text-gray-900">Contact</ Link>
-      <FaCartShopping  className="cursor-pointer"/>
+      
     </nav>
    
   </div>
